@@ -1,0 +1,22 @@
+p.error{
+	color: slategrey;
+	margin: 50px;
+	text-align: justify;
+}
+
+p.text{
+	color: maroon;
+}
+
+.text.feedback{
+	line-height: 40px;
+}
+
+p.cta_button{
+	color: darkolivegreen;
+	margin: 40px;
+	padding: 30px;
+	font-size: 12px;
+	text-decoration: underline;
+	text-align: center;
+}

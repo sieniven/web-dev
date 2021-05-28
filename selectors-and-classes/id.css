@@ -1,0 +1,22 @@
+#content{
+	color: slategrey;
+	margin: 50px;
+	text-align: justify;
+}
+
+#error{
+	color: maroon;
+}
+
+#text_feedback{
+	line-height: 40px;
+}
+
+#cta_button{
+	color: darkolivegreen;
+	margin: 40px;
+	padding: 30px;
+	font-size: 12px;
+	text-decoration: underline;
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+div.section p.error{
+	color: slategrey;
+	margin: 50px;
+	text-align: justify;
+}
+
+.blue{
+	color: blue;
+}
+
+.error{
+	color: red;
+}
+
+a[href="https://www.google.com"]{
+	background-color: lightseagreen;
+}
+
+a[href*="youtube"]{
+	background-color: brown;
+	color: wheat;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
