@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Information Form</title>
+</head>
+
+<body>
+	<h1>Personal Information Form</h1>
+	<form>
+		<!-- Input text / password / email fields -->
+		<label for="username">Enter your username:</label>
+		<input type="text" id="username" name="username" placeholder="username" required>
+		
+		<br><br>
+		
+		<label for="email">Enter your email:</label>
+		<input type="email" id="email" name="email" placeholder="email" required>
+		
+		<br><br>
+		
+		<label for="password">Enter your password:</label>
+		<input type="password" id="password" name="password" placeholder="password" required>
+		
+		<br><br>
+
+		<!-- radio buttons -->
+		<label for="age">Select your age:</label>
+		<select name="age" id="age">
+			<option value="age1">0-25</option>
+			<option value="age2">26-50</option>
+			<option value="age1">51+</option>
+		</select>
+		
+		<br>
+
+		<!-- radio buttons -->
+		<p>Select your gender:</p>
+		<input type="radio" name="gender" id="gender-1", value="male">
+		<label for="gender-1">Male</label>
+		<br>
+		<input type="radio" name="gender" id="gender-2", value="female">
+		<label for="gender-2">Female</label>
+		<br>
+		<input type="radio" name="gender" id="gender-3", value="other">
+		<label for="gender-3">Other</label>
+		
+		<br><br>
+
+		<!-- dropdown box options -->
+		<label for="question">Security question:</label>
+		<select name="question" id="question">
+			<option value="q1">What is your favorite programming language?</option>
+			<option value="q2">What is your surname?</option>
+			<option value="q3">What is your favorite color?</option>
+		</select>
+
+		<br><br>
+
+		<label for="answer">Security answer:</label>
+		<input type="text" name="answer" id="answer" placeholder="security answer">
+
+		<br><br>
+
+		<label for="projects">Your programming projects:</label><br>
+		<textarea name="projects" id="projects" cols="50" rows="10" placeholder="Please enter your projects here"></textarea>
+	</form>
+
+
+</body>
+</html>
