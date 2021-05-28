@@ -1,0 +1,19 @@
+h1{
+	color: midnightblue;
+	font-size: 20px;
+	text-decoration: underline;
+	font-family: arial;
+	text-align: left;
+}
+
+h2{
+	color: slategrey;
+	line-height: 30px;
+}
+
+div{
+	background-color: wheat;
+	border: 2px solid darkslateblue;
+	margin: 20px;
+	padding: 10px;
+}
