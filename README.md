@@ -2,4 +2,4 @@
 
 ##  Information
 
-Hello! This project is a self initiated project to develop JavaScript, HTML and CSS files for webpage development. It contains various techniques of HTML and CSS such as using responsive designs, semantic tags, webforms, pseudo classes, psedo elements, and media queries.
+Hello! This project is a self initiated project for web-based development using Node.js and MongoDB. It contains various techniques of web-based development such as using MongoDB as my noSQL database for web services, web service development using Express and EJS as view engine, responsive designs, semantic tags, web-forms, pseudo classes, psedo elements, and media queries.
